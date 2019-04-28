@@ -1,7 +1,7 @@
-package com.jxd.websocketstomp.Utils;
+package com.quicksand.websocketstomp.Utils;
 
 
-import com.jxd.websocketstomp.BuildConfig;
+import com.quicksand.websocketstomp.BuildConfig;
 
 import ua.naiksoftware.stomp.Stomp;
 import ua.naiksoftware.stomp.client.StompClient;

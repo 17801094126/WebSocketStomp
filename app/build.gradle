@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.jxd.websocketstomp"
-        minSdkVersion 15
+        applicationId "com.quicksand.websocketstomp"
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -21,6 +21,14 @@ android {
             buildConfigField("String", "BASE_URL", "\"http://192.168.1.1:8080/\"")
             buildConfigField("String", "WebSocketUrl", "\"http://192.168.1.1:8080/ws\"")
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
 }
 

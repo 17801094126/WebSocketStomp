@@ -1,4 +1,4 @@
-package com.jxd.websocketstomp;
+package com.quicksand.websocketstomp;
 
 import org.junit.Test;
 

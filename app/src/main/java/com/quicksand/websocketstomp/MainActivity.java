@@ -1,4 +1,4 @@
-package com.jxd.websocketstomp;
+package com.quicksand.websocketstomp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.jxd.websocketstomp.Utils.StompClientUtils;
+import com.quicksand.websocketstomp.Utils.StompClientUtils;
 
 import java.util.ArrayList;
 import java.util.List;

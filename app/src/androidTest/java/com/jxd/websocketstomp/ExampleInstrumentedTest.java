@@ -1,4 +1,4 @@
-package com.jxd.websocketstomp;
+package com.quicksand.websocketstomp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.jxd.websocketstomp", appContext.getPackageName());
+        assertEquals("com.quicksand.websocketstomp", appContext.getPackageName());
     }
 }
