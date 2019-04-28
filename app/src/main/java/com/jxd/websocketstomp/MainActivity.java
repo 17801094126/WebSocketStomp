@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //接收后台推送消息
     private void initRectiver() {
+
         StompClientUtils.getInstance().topic("注意这里请填写推送url名称")
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
