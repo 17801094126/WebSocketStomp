@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/bt_connect"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="链接WebSocket"
+        android:gravity="center"
+        android:background="#4CEBFD"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"/>
+
+
+   <TextView
+       android:id="@+id/tv_context"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginLeft="15dp"
+       app:layout_constraintTop_toBottomOf="@+id/bt_connect"
+       android:layout_marginTop="15dp"
+       android:text="未接收消息内容"/>
+</android.support.constraint.ConstraintLayout>
