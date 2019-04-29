@@ -2,7 +2,6 @@ package com.quicksand.websocketstomp.Utils;
 
 
 import com.quicksand.websocketstomp.BuildConfig;
-
 import ua.naiksoftware.stomp.Stomp;
 import ua.naiksoftware.stomp.client.StompClient;
 
@@ -24,9 +23,6 @@ public class StompClientUtils {
             }
         }
         return client;
-    }
-    public static void clearStompClient(){
-        client=null;
     }
 
 }
